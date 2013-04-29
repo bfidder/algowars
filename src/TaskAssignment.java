@@ -14,7 +14,6 @@ public class TaskAssignment {
 	
 	public static void getInput(String filename) throws IOException {
 		BufferedReader reader = new BufferedReader(new FileReader(filename));
-		ArrayList<String> input = new ArrayList<String>();
 		String line = reader.readLine();
 		numTasks = Integer.parseInt(line);
 		line = reader.readLine();
@@ -22,30 +21,24 @@ public class TaskAssignment {
 		line = reader.readLine();
 		String[] taskStrings = line.split(" ");
 		for (int i = 0; i < taskStrings.length; i++) {
-			Task task = new Task(i+1, Integer.parseInt(taskStrings[i]));
+			Task task = new Task(i, Integer.parseInt(taskStrings[i]));
 			tasks.add(task);
 		}
 		line = reader.readLine();
 		String[] machineStrings = line.split(" ");
 		for (int i = 0; i < machineStrings.length; i++) {
-			machineSpeeds.add(Integer.parseInt(machineStrings[i]));
-		}
-		
-	}
-	
-	public static void makeMachines(){
-		for (int i = 0; i < machineSpeeds.size(); i++) {
 			ArrayList<Task> tasks = new ArrayList<Task>();
-			Machine machine = new Machine(i+1, tasks, machineSpeeds.get(i));
+			Machine machine = new Machine(i, tasks, Integer.parseInt(machineStrings[i]));
 			machines.add(machine);
 		}
+		reader.close();
 	}
 	
 	public static double algowars() {
 		machines.get(0).getTasks().add(tasks.get(0));
 		tasks.remove(0);
 
-		double maxTime = machines.get(0).calcCurrentTime();
+		double maxTime = 0;
 		for(int i = 0; i < tasks.size(); i++) {
 			int minIndex = 0;
 			double minVal = Double.MAX_VALUE;
@@ -73,7 +66,6 @@ public class TaskAssignment {
 			}
 		});
 		Collections.sort(machineSpeeds);
-		makeMachines();
 		double solution = algowars();
 		
 		for (int i = 0; i < machines.size(); i++){

@@ -9,6 +9,9 @@ public class Task{
 	public Integer getProcessing_time() {
 		return processing_time;
 	}
+	public Integer getTaskId() {
+		return task_id;
+	}
 	public Task(int task_id, int processing_time) {
 		this.task_id = task_id;
 		this.processing_time = processing_time;
