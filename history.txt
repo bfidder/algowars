@@ -1,0 +1,500 @@
+   14  vim _index.html.erb 
+   15  vim index.html.erb 
+   16  rm index.html.erb 
+   17  cp _index.html.erb index.html.erb
+   18  vim index.html.erb 
+   19  vim create.js.erb 
+   20  vim _index.html.erb 
+   21  vim create.js.erb 
+   22  cd ..
+   23  c d..
+   24  cd ..
+   25  cd ..
+   26  ls
+   27  git add .
+   28  git commit -m 'messages working. not working with multpile instances of the app yet. That will be in the next iteration.'
+   29  git push
+   30  git push
+   31  git push heroku master
+   32  heroku open
+   33  exit
+   34  cd Documents/csci446/project05
+   35  ls
+   36  cd tabletop
+   37  ls
+   38  cd app/views/
+   39  ls
+   40  cd messages/
+   41  cd ..
+   42  cd ..
+   43  cd controllers/
+   44  ls
+   45  vim messages_controller.rb 
+   46  vim messages_controller.rb 
+   47  cd ..
+   48  cd ..
+   49  cd ..
+   50  cd tabletop
+   51  rails server
+   52  rails server
+   53  cd app/views/messages/
+   54  ls
+   55  vim _index.html.erb 
+   56  cd ..
+   57  ls
+   58  cd users/
+   59  ls
+   60  vim show.html.erb 
+   61  vim index.html.erb 
+   62  cd ..
+   63  cd ..
+   64  cd ..
+   65  rails server
+   66  rails server
+   67  git add .
+   68  exit
+   69  cd Documents/csci446/project05/tabletop/
+   70  ls
+   71  cd db/
+   72  vim schema.rb 
+   73  exit
+   74  cd Documents/csci446/project05
+   75  ls
+   76  cd ..
+   77  cd ..
+   78  cd csci442/
+   79  ls
+   80  cd project5
+   81  ls
+   82  cd src/
+   83  ls
+   84  ./saturday-morning example_input_files/easy 
+   85  exit
+   86  cd Documents/csci442/project5
+   87  ls
+   88  cd src/
+   89  ls
+   90  ./saturday-morning example_input_files/easy 
+   91  cd ..
+   92  c d..
+   93  cd ..
+   94  cd ..
+   95  cd algorithms/algowars/
+   96  ls
+   97  exit
+   98  cd Documents/algorithms/
+   99  ls
+  100  cd algo
+  101  cd algowars/
+  102  ls
+  103  cd src/
+  104  ls
+  105  cd ~
+  106  ls
+  107  cd Documents/csci446/project05/tabletop
+  108  ls
+  109  cd ..
+  110  cd ..
+  111  cd ..
+  112  cd csci442/project5
+  113  ls
+  114  cd src/
+  115  ls
+  116  vim golf_course.h 
+  117  exit
+  118  cd Documents/algorithms/
+  119  ls
+  120  cd algowars/
+  121  ls
+  122  git add .
+  123  git status
+  124  git commit -m 'changed indexing to 0. Took out a for loop and other lines that were not needed. project works at this point.' 
+  125  git push
+  126  git push git@github.com:bfidder/algowars.git
+  127  git stauts
+  128  git status
+  129  exit
+  130  cd Documents/algorithms/
+  131  ls
+  132  cd eclipse/
+  133  ls
+  134  ./eclipse 
+  135  ./eclipse 
+  136  exit
+  137  sl
+  138  cd Documents/algorithms/algowars/
+  139  ls
+  140  vim input
+  141  vim input.txt 
+  142  exit
+  143  cd Documents/csci442/
+  144  ls
+  145  cd project3
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd project2
+  150  ls
+  151  vim alamode-sentry.py 
+  152  cd ..
+  153  cd project1
+  154  ls
+  155  cd pi
+  156  vim ping.py 
+  157  exit
+  158  cd Documents/algorithms/algowars/
+  159  ls
+  160  vim input2.txt
+  161  cd ..
+  162  cd algowars/
+  163  ls
+  164  mkdir validation
+  165  ls
+  166  cd validation/
+  167  ls
+  168  vim validator.py
+  169  ls
+  170  cp ../input.txt 
+  171  cp ../input.txt input.txt
+  172  ls
+  173  vim output.txt
+  174  chmod u+x validator.py 
+  175  ./validator.py input.txt output.txt 
+  176  ls
+  177  vim validator.py 
+  178  vim output.txt 
+  179  vim validator.py 
+  180  ./validator.py input.txt output.txt 
+  181  vim validator.py 
+  182  ./validator.py input.txt output.txt 
+  183  vim validator.py 
+  184  ./validator.py input.txt output.txt 
+  185  vim validator.py 
+  186  ./validator.py input.txt output.txt 
+  187  vim validator.py 
+  188  ./validator.py input.txt output.txt 
+  189  vim validator.py 
+  190  ./validator.py input.txt output.txt 
+  191  vim validator.py 
+  192  ./validator.py input.txt output.txt 
+  193  vim validator.py 
+  194  ./validator.py input.txt output.txt 
+  195  vim validator.py 
+  196  vim validator.py 
+  197  ./validator.py input.txt output.txt 
+  198  vim validator.py 
+  199  ./validator.py input.txt output.txt 
+  200  vim validator.py 
+  201  ./validator.py input.txt output.txt 
+  202  vim validator.py 
+  203  ./validator.py input.txt output.txt 
+  204  vim validator.py 
+  205  ./validator.py input.txt output.txt 
+  206  vim validator.py 
+  207  ./validator.py input.txt output.txt 
+  208  vim input2.txt
+  209  cd ..
+  210  ls
+  211  cd validation/
+  212  ls
+  213  vim output2.txt
+  214  ./validator.py input2.txt output2.txt 
+  215  vim validator.py 
+  216  ./validator.py input2.txt output2.txt 
+  217  vim validator.py 
+  218  ./validator.py input2.txt output2.txt 
+  219  vim validator.py 
+  220  ./validator.py input2.txt output2.txt 
+  221  vim validator.py 
+  222  ./validator.py input2.txt output2.txt 
+  223  vim validator.py 
+  224  ./validator.py input2.txt output2.txt 
+  225  vim validator.py 
+  226  ./validator.py input2.txt output2.txt 
+  227  vim validator.py 
+  228  ./validator.py input2.txt output2.txt 
+  229  vim validator.py 
+  230  ./validator.py input2.txt output2.txt 
+  231  ./validator.py input.txt output.txt 
+  232  ./validator.py input2.txt output2.txt 
+  233  vim validator.py 
+  234  ./validator.py input.txt output.txt 
+  235  vim output.txt 
+  236  vim validator.py 
+  237  ./validator.py input.txt output.txt 
+  238  vim validator.py 
+  239  ./validator.py input.txt output.txt 
+  240  cd ..
+  241  ls
+  242  input3.txt
+  243  vim input3.txt
+  244  cd validation/
+  245  ls
+  246  vim output3.txt
+  247  ./validator.py input2.txt output3.txt 
+  248  vim input2.txt 
+  249  vim validator.py 
+  250  vim input2.txt 
+  251  ./validator.py input2.txt output3.txt 
+  252  vim validator.py 
+  253  ./validator.py input2.txt output3.txt 
+  254  vim validator.py 
+  255  ./validator.py input2.txt output3.txt 
+  256  vim validator.py 
+  257  ./validator.py input2.txt output3.txt 
+  258  vim validator.py 
+  259  ./validator.py input2.txt output3.txt 
+  260  vim validator.py 
+  261  ./validator.py input2.txt output2.txt 
+  262  ./validator.py input.txt output.txt 
+  263  vim output2.txt 
+  264  vim validator.py 
+  265  ./validator.py input.txt output.txt 
+  266  vim validator.py 
+  267  ./validator.py input.txt output.txt 
+  268  vim output4.txt
+  269  ls
+  270  cd ..
+  271  ls
+  272  vim input2.txt 
+  273  cd ..
+  274  cd algowars/validation/
+  275  ls
+  276  cp ../input2.txt input4.txt
+  277  ls
+  278  ./validator.py input4.txt output4.txt 
+  279  vim validator.py 
+  280  ./validator.py input4.txt output4.txt 
+  281  fg
+  282  ./validator.py input4.txt output4.txt 
+  283  fg
+  284  ./validator.py input4.txt output4.txt 
+  285  fg
+  286  ./validator.py input4.txt output4.txt 
+  287  fg
+  288  ./validator.py input4.txt output4.txt 
+  289  fg
+  290  ./validator.py input4.txt output4.txt 
+  291  ./validator.py input4.txt output4.txt 
+  292  fg
+  293  ./validator.py input4.txt output4.txt 
+  294  exit
+  295  cd Documents/algorithms/eclipse/
+  296  ./eclipse 
+  297  ./eclipse 
+  298  exit
+  299  cd Documents/csci442/project5/src/
+  300  ls
+  301  vim golf_course.h 
+  302  vim player.h 
+  303  ./saturday-morning example_input_files/easy 
+  304  ./saturday-morning example_input_files/easy 
+  305  cd example_input_files/
+  306  ls
+  307  vim easy 
+  308  exit
+  309  cd Documents/csci442/project5/
+  310  ls
+  311  vim README 
+  312  ls
+  313  cd ..
+  314  cd ..
+  315  ls
+  316  cd algorithms/
+  317  ls
+  318  cd algowars/
+  319  ls
+  320  ls
+  321  vim input.txt 
+  322  mv input.txt input16.txt
+  323  ls
+  324  rm input2.txt 
+  325  rm input3.txt 
+  326  ls
+  327  vim input1.txt
+  328  vim input2.txt
+  329  vim input3.txt
+  330  vim input3.txt 
+  331  vim input4.txt
+  332  vim input5.txt
+  333  vim input6.txt
+  334  vim input7.txt
+  335  vim input8.txt
+  336  vim input9.txt
+  337  vim input10.txt
+  338  vim input11.txt
+  339  vim input12.txt
+  340  vim input13.txt
+  341  vim input14.txt
+  342  vim input15.txt
+  343  vim input16.txt
+  344  ls
+  345  vim output1.txt
+  346  cd validation/
+  347  ls
+  348  rm output.txt 
+  349  rm output3
+  350  rm output3.txt
+  351  rm output4.txt 
+  352  ls
+  353  rm output2.txt 
+  354  ls
+  355  rm input2.txt 
+  356  rm input4.txt 
+  357  rm input.txt 
+  358  ls
+  359  cd ..
+  360  ls
+  361  vim output2.txt
+  362  vim output3.txt
+  363  cd validation/
+  364  ls
+  365  vim validator.py 
+  366  cd ..
+  367  vim input4.txt 
+  368  vim output4.txt
+  369  vim output5.txt
+  370  vim output6.txt
+  371  vim output7.txt
+  372  vim output8.txt
+  373  cd validation/
+  374  ls
+  375  ./validator.py ../input1.txt ../output1.txt 
+  376  cd ..
+  377  ls
+  378  vim input1.txt 
+  379  vim output1.txt 
+  380  vim output2.txt 
+  381  vim output3.txt 
+  382  vim output4.txt 
+  383  vim output5.txt 
+  384  vim output6.txt 
+  385  vim output7.txt 
+  386  vim output8.txt 
+  387  ls
+  388  cd validation/
+  389  ./validator.py ../input1.txt ../output1.txt 
+  390  vim validator.py 
+  391  ./validator.py ../input1.txt ../output1.txt 
+  392  vim validator.py 
+  393  cd ..
+  394  ls
+  395  vim input1.txt 
+  396  vim input1.txt 
+  397  vim output1.txt 
+  398  cd validation/
+  399  ls
+  400  ./validator.py ../input1.txt ../output1.txt 
+  401  cd ..
+  402  vim output1.txt 
+  403  cd validation/
+  404  ./validator.py ../input1.txt ../output1.txt 
+  405  vim validator.py 
+  406  ./validator.py ../input1.txt ../output1.txt 
+  407  vim validator.py 
+  408  cd ..
+  409  ls
+  410  vim output2.txt 
+  411  vim output3.txt 
+  412  vim output4.txt 
+  413  vim output5.txt 
+  414  vim output6.txt 
+  415  vim output7.txt 
+  416  cd validation/
+  417  ls
+  418  ./validator.py ../input2.txt ../output2.txt 
+  419  vim validator.py 
+  420  ./validator.py ../input2.txt ../output2.txt 
+  421  ./validator.py ../input3.txt ../output3.txt 
+  422  ./validator.py ../input4.txt ../output4.txt 
+  423  ./validator.py ../input5.txt ../output5.txt 
+  424  vim validator.py 
+  425  ./validator.py ../input5.txt ../output5.txt 
+  426  vim validator.py 
+  427  ./validator.py ../input5.txt ../output5.txt 
+  428  cd .. 
+  429  ls
+  430  vim output7.txt 
+  431  vim output8.txt 
+  432  vim output9.txt
+  433  vim output10.txt
+  434  vim output11.txt
+  435  vim output12.txt
+  436  vim output13.txt
+  437  cd validation/
+  438  ls
+  439  ./validator.py ../input6.txt ../output6.txt 
+  440  ./validator.py ../input7.txt ../output7.txt 
+  441  ./validator.py ../input8.txt ../output8.txt 
+  442  ./validator.py ../input9.txt ../output9.txt 
+  443  ./validator.py ../input10.txt ../output10.txt 
+  444  vim validator.py 
+  445  ./validator.py ../input10.txt ../output10.txt 
+  446  cd ..
+  447  vim output10.txt 
+  448  vim validation/
+  449  cd Documents/algorithms/algowars/
+  450  ls
+  451  git add .
+  452  git status
+  453  git rm bin/input.txt
+  454  git rm input.txt
+  455  ls
+  456  git status
+  457  git commit 'Validator, inputs, and outputs for all groups. Fixed integer division error'
+  458  git commit -m 'Validator, inputs, and outputs for all groups. Fixed integer division error'
+  459  git push git@github.com/bfidder/algowars.git
+  460  git push
+  461  git push https://github.com/bfidder/algowars.git
+  462  ls
+  463  git status
+  464  exit
+  465  cd Documents/csci442/project5
+  466  ls
+  467  cd src/
+  468  ./saturday-morning example_input_files/easy 
+  469  ls
+  470  vim golf_course.h 
+  471  vim player.h 
+  472  vim player.h 
+  473  cd ..
+  474  ls
+  475  vim README 
+  476  exit
+  477  cd Documents/csci442/project5/
+  478  ls
+  479  cd src/
+  480  ls
+  481  ./saturday-morning example_input_files/easy 
+  482  ./saturday-morning example_input_files/easy 
+  483  make
+  484  make clean
+  485  make
+  486  make
+  487  ./saturday-morning example_input_files/easy 
+  488  ./saturday-morning example_input_files/medium 
+  489  ./saturday-morning example_input_files/harder 
+  490  ls
+  491  cd example_input_files/
+  492  ls
+  493  cd ..
+  494  ls
+  495  vim player.h 
+  496  cd ..
+  497  ls
+  498  cd ..
+  499  ls
+  500  exit
+  501  cd Documents/algorithms/algowars/
+  502  ls
+  503  cd validation/
+  504  ls
+  505  ./validator.py ../input15.txt ../output15.txt 
+  506  ./validator.py ../input16.txt ../output1.txt 
+  507  ./validator.py ../input16.txt ../output16.txt 
+  508  cd ..
+  509  ls
+  510  history | grep jav
+  511  history | grep java
+  512  history
+  513  history > history.txt

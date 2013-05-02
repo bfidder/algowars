@@ -35,8 +35,6 @@ public class TaskAssignment {
 	}
 	
 	public static double algowars() {
-		machines.get(0).getTasks().add(tasks.get(0));
-		tasks.remove(0);
 
 		double maxTime = 0;
 		for(int i = 0; i < tasks.size(); i++) {
@@ -59,7 +57,7 @@ public class TaskAssignment {
 	}
 
 	public static void main(String[] args) throws IOException {
-		getInput("input16.txt");
+		getInput("input10.txt");
 		Collections.sort(tasks, new Comparator<Task>() {
 			public int compare(Task o1, Task o2) {
 				return o1.getProcessing_time().compareTo(o2.getProcessing_time());
