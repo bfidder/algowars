@@ -9,7 +9,7 @@ public class TaskAssignment {
 	public static int numTasks = 0;
 	public static int numMachines = 0;
 	public static ArrayList<Task> tasks = new ArrayList<Task>();
-	public static ArrayList<Integer> machineSpeeds = new ArrayList<Integer>();
+	public static ArrayList<Double> machineSpeeds = new ArrayList<Double>();
 	public static ArrayList<Machine> machines = new ArrayList<Machine>();
 	
 	public static void getInput(String filename) throws IOException {
@@ -43,8 +43,8 @@ public class TaskAssignment {
 			int minIndex = 0;
 			double minVal = Double.MAX_VALUE;
 			for (int j = 0; j < machines.size(); j++) {
-				int time = tasks.get(i).getProcessing_time()/machines.get(j).getSpeed();
-				int machineMax = time + machines.get(j).calcCurrentTime();
+				double time = tasks.get(i).getProcessing_time()/machines.get(j).getSpeed();
+				double machineMax = time + machines.get(j).calcCurrentTime();
 				if(machineMax < minVal)
 				{
 					minVal = machineMax;
@@ -59,7 +59,7 @@ public class TaskAssignment {
 	}
 
 	public static void main(String[] args) throws IOException {
-		getInput("input.txt");
+		getInput("input16.txt");
 		Collections.sort(tasks, new Comparator<Task>() {
 			public int compare(Task o1, Task o2) {
 				return o1.getProcessing_time().compareTo(o2.getProcessing_time());
@@ -75,7 +75,7 @@ public class TaskAssignment {
 			}
 			System.out.println();
 		}
-		System.out.println(solution);
+		System.out.println(Math.round(solution*100)/100.0);
 	}
 
 }

@@ -5,8 +5,8 @@ public class Machine {
 
 	private ArrayList<Task> tasks = new ArrayList<Task>();
 	private int machine_id;
-	private int speed;
-	private int currentTime;
+	private double speed;
+	private double currentTime;
 	
 	public Machine(int machine_id, ArrayList<Task> tasks, int speed) {
 		this.machine_id = machine_id;
@@ -17,11 +17,11 @@ public class Machine {
 	public ArrayList<Task> getTasks() {
 		return tasks;
 	}
-	public int getSpeed() {
+	public double getSpeed() {
 		return speed;
 	}
-	public int calcCurrentTime() {
-		int time = 0;
+	public double calcCurrentTime() {
+		double time = 0;
 		if (tasks.size() > 0) {
 			for (int i = 0; i < tasks.size(); i++) {
 				time += tasks.get(i).getProcessing_time();
